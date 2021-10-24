@@ -3,7 +3,7 @@ import { FaFacebook, FaInstagram } from "react-icons/fa";
 
 function footer() {
   return (
-    <footer className="bg-gray-700 w-full py-5">
+    <footer className="w-full py-10 bg-gray-600">
       <div className="container mx-auto text-center">
         <div className="flex justify-center">
           <Link href="https://www.facebook.com/KBgymSande">
@@ -17,13 +17,13 @@ function footer() {
             </a>
           </Link>
         </div>
-        <p>
-          © {new Date().getFullYear()} Kb Gym&Coaching AS -{" "}
+        <p className="text-xs text-gray-100">
+          © {new Date().getFullYear()} KB Gym&Coaching AS -{" "}
           <Link href="/personvernerklaering/">
             <a>Personvern og Cookies</a>
           </Link>
         </p>
-        <p>
+        <p className="text-xs text-gray-100 ">
           Drift og design:{" "}
           <Link href="https://strandos-ikt.no">
             <a>Strandos IKT</a>
