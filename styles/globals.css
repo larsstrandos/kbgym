@@ -1,9 +1,17 @@
+@import url("https://fonts.googleapis.com/css?family=Montserrat%3A300%2C300i%2C400%2C500%2C600&amp;display=swap&amp;ver=5.8.1");
+
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
 
 @layer components {
   .h-70vh {
-    height: 70vh;
+    height: 10vh;
+  }
+  .bg-fb {
+    background-color: rgb(59, 89, 152);
+  }
+  .bg-ig {
+    background-color: rgb(195, 42, 163);
   }
 }
