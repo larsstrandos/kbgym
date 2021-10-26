@@ -29,6 +29,11 @@ function footer() {
         {/* Footer Menu */}
 
         <div className="flex flex-1 justify-center uppercase mb-5">
+          <Link href="/">
+            <a className="px-1.5 text-sm text-white font-bold hover:text-opacity-90">
+              Heim
+            </a>
+          </Link>
           <Link href="/om-senteret/">
             <a className="px-1.5 text-sm text-white font-bold hover:text-opacity-90">
               Om Senteret

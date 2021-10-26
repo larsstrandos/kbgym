@@ -14,4 +14,34 @@
   .bg-ig {
     background-color: rgb(195, 42, 163);
   }
+  /* absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 h-1 w-full rounded bg-white after:contents after:absolute after:left-1/2 after:-translate-x-1/2 after:-translate-y-1/2 after:h-1 after:w-full after:rounded after:bg-current */
+}
+
+.hamburger-inner {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  border-radius: 4px;
+  height: 0.25rem;
+  width: 100%;
+}
+
+.hamburger-inner::before,
+.hamburger-inner::after {
+  content: "";
+  position: absolute;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  border-radius: 4px;
+  height: 0.25rem;
+  width: 100%;
+}
+
+.hamburger-inner::before {
+  top: 0.25rem;
+}
+
+.hamburger-inner::after {
+  bottom: -0.25rem;
 }
