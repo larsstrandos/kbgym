@@ -12,9 +12,9 @@ export default function Home() {
       </Head>
       <Header />
       <main className="mb-auto">
-        <div className="w-full h-70vh relative">
+        {/*<div className="w-full h-70vh relative">
           <Image src="/DSC_5845.jpg" layout="fill" objectFit="cover" priority />
-        </div>
+  </div>*/}
       </main>
       <Footer />
     </div>

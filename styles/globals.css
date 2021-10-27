@@ -1,5 +1,7 @@
 @import url("https://fonts.googleapis.com/css?family=Montserrat%3A300%2C300i%2C400%2C500%2C600&amp;display=swap&amp;ver=5.8.1");
 
+@import url("https://fonts.googleapis.com/css2?family=Exo+2:wght@700&display=swap");
+
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
@@ -14,34 +16,7 @@
   .bg-ig {
     background-color: rgb(195, 42, 163);
   }
-  /* absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 h-1 w-full rounded bg-white after:contents after:absolute after:left-1/2 after:-translate-x-1/2 after:-translate-y-1/2 after:h-1 after:w-full after:rounded after:bg-current */
-}
-
-.hamburger-inner {
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%);
-  border-radius: 4px;
-  height: 0.25rem;
-  width: 100%;
-}
-
-.hamburger-inner::before,
-.hamburger-inner::after {
-  content: "";
-  position: absolute;
-  left: 50%;
-  transform: translate(-50%, -50%);
-  border-radius: 4px;
-  height: 0.25rem;
-  width: 100%;
-}
-
-.hamburger-inner::before {
-  top: 0.25rem;
-}
-
-.hamburger-inner::after {
-  bottom: -0.25rem;
+  .font-exo {
+    font-family: "Exo 2", sans-serif;
+  }
 }
