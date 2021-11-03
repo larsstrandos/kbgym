@@ -5,7 +5,7 @@ import { HiOutlineMail } from "react-icons/hi";
 function footer() {
   return (
     // <link rel="stylesheet" id="monsterrat_font-css" href="https://fonts.googleapis.com/css?family=Montserrat%3A300%2C300i%2C400%2C500%2C600&amp;display=swap&amp;ver=5.8.1" type="text/css" media="all">
-    <footer className="mt-auto w-full py-10 px-2 bg-gray-600 ">
+    <footer className="mt-auto w-full py-10 px-2 bg-dark-grey">
       {/* Social Media Icons */}
       <div className="container mx-auto text-center">
         <div className="flex flex-1 justify-center mb-5">

@@ -7,6 +7,10 @@ module.exports = {
       fontFamily: {
         body: ["Montserrat", "sans-serif"],
       },
+      colors: {
+        'dark-grey': "#181a1b",
+        'ligth-grey': "#1b1f23",
+      }
     },
   },
   variants: {
