@@ -23,9 +23,27 @@ function Header() {
                             </div>
                         </a>
                     </Link>
+                    <div className="hidden md:flex text-white uppercase font-exo text-base">
+                        <Link href="/">
+                            <a className="mr-4">Heim</a>
+                        </Link>
+                        <Link href="/om-senteret">
+                            <a className="mr-4">Om Senteret</a>
+                        </Link>
+                        <Link href="https://booking.xakt.no/Innmelding?org=926187538">
+                            <a className="mr-4">
+                                Medlemskap
+                            </a>
+                        </Link>
+                        <Link href="/pt">
+                            <a className="mr-4">
+                                Personlig Trenar
+                            </a>
+                        </Link>
+                    </div>
                     {/* Mobile Navigation Hamburger */}
                     <button
-                        className="flex flex-col h-9 w-8 justify-center items-center group z-50"
+                        className="flex flex-col h-9 w-8 justify-center items-center group z-50 md:hidden"
                         onClick={() => setIsOpen(!isOpen)}
                     >
                         <div
@@ -81,7 +99,7 @@ function Header() {
                                 </ActiveLink>
                             </li>
                         </Link>
-                        <Link href="/medlemskap/">
+                        <Link href="https://booking.xakt.no/Innmelding?org=926187538">
                             <li className={`relative py-7 transition-all duration-300 ${
                                 isOpen ? " translate-x-0" : "-translate-x-5"}`}>
                                 <ActiveLink href="/medlemskap">
@@ -100,7 +118,7 @@ function Header() {
                                     <a
                                         className={`relative cursor-pointer hover:opacity-70`}
                                     >
-                                        Personleg trenar
+                                        Personlig trenar
                                     </a>
                                 </ActiveLink>
                             </li>
