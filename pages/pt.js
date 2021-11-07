@@ -21,7 +21,7 @@ export default function Home() {
                     </div>
                 </div>
                 <div className="container mx-auto px-5 py-10 bg-white">
-                    <table className="border-collapse shadow-sm mb-3">
+                    <table className="border-collapse shadow-sm mb-5">
                         <thead>
                             <tr className="border-b-2">
                                 <th>PT - 50 minutt</th>
@@ -62,32 +62,32 @@ export default function Home() {
                     <table className="border-collapse shadow-sm mb-3">
                         <thead>
                         <tr className="border-b-2">
-                            <th>Online Coaching Pakker</th>
+                            <th colSpan="2">Online Coaching Pakker</th>
                         </tr>
                         </thead>
                         <tbody className="text-ligth-grey text-base leading-normal">
                         <tr className="border-b-2">
-                            <td className="pr-1">1 mnd oppfølging av treningsprogram</td>
+                            <td className="pr-5">1 mnd oppfølging av treningsprogram</td>
                             <td>1799kr</td>
                         </tr>
                         <tr className="border-b-2">
-                            <td className="pr-1">1 mnd oppfølging av kosthold</td>
+                            <td className="pr-5">1 mnd oppfølging av kosthold</td>
                             <td>1799kr</td>
                         </tr>
                         <tr className="border-b-2">
-                            <td className="pr-1">1 mnd oppfølging av kosthold og treningsprogram</td>
+                            <td className="pr-5">1 mnd oppfølging av kosthold og treningsprogram</td>
                             <td>2799kr</td>
                         </tr>
                         <tr className="border-b-2">
-                            <td className="pr-1">3 mnd oppfølging av treningsprogram</td>
+                            <td className="pr-5">3 mnd oppfølging av treningsprogram</td>
                             <td>1399kr pr mnd</td>
                         </tr>
                         <tr className="border-b-2">
-                            <td className="pr-1">3 mnd oppfølging av kosthold</td>
+                            <td className="pr-5">3 mnd oppfølging av kosthold</td>
                             <td>1399kr pr mnd</td>
                         </tr>
                         <tr className="border-b-2">
-                            <td className="pr-1">3 mnd oppfølging av kosthold og treningsprogram</td>
+                            <td className="pr-5">3 mnd oppfølging av kosthold og treningsprogram</td>
                             <td>2399kr pr mnd</td>
                         </tr>
                         </tbody>
