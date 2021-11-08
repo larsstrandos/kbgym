@@ -102,13 +102,11 @@ function Header() {
                         <Link href="https://booking.xakt.no/Innmelding?org=926187538">
                             <li className={`relative py-7 transition-all duration-300 ${
                                 isOpen ? " translate-x-0" : "-translate-x-5"}`}>
-                                <ActiveLink href="/medlemskap">
                                     <a
                                         className={`relative cursor-pointer hover:opacity-70`}
                                     >
                                         Medlemskap
                                     </a>
-                                </ActiveLink>
                             </li>
                         </Link>
                         <Link href="/pt/">
