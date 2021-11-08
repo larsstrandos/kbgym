@@ -32,7 +32,7 @@ function Header() {
                         </Link>
                         <Link href="https://booking.xakt.no/Innmelding?org=926187538">
                             <a className="mr-4">
-                                Medlemskap
+                                Medlems kap
                             </a>
                         </Link>
                         <Link href="/pt">
