@@ -15,7 +15,7 @@ export default function Home() {
             <main className="mb-auto">
                 <div className="w-full h-25vh relative bg-blend-darken">
                     <Image src="/DSC_5845.jpg" layout="fill" objectFit="cover" priority className="brightness-50"/>
-                    <div className={'absolute w-screen h-full flex items-center justify-center'}>
+                    <div className={'absolute w-full h-full flex items-center justify-center'}>
                         <h1 className="relative text-white uppercase font-bold text-xl font-exo after:absolute after:w-full after:left-1/2 after:-translate-x-1/2  after:h-0.5 after:bg-white after:-bottom-1">Om Senteret</h1>
                     </div>
                 </div>

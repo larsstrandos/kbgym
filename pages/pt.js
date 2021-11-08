@@ -8,14 +8,14 @@ export default function Home() {
     return (
         <div className="font-body flex flex-col h-screen justify-between">
             <Head>
-                <title>KB Gym Sande - Om Senteret</title>
+                <title>KB Gym Sande - Personlig Trener</title>
                 <link rel="icon" href="/favicon.ico"/>
             </Head>
             <Header/>
             <main className="mb-auto">
                 <div className="w-full h-25vh relative bg-blend-darken">
                     <Image src="/DSC_5845.jpg" layout="fill" objectFit="cover" priority className="brightness-50"/>
-                    <div className={'absolute w-screen h-full flex items-center justify-center text-center px-5'}>
+                    <div className={'absolute w-full h-full flex items-center justify-center text-center px-5'}>
                         <h1 className="relative text-white uppercase font-bold text-xl font-exo after:absolute after:w-full after:left-1/2 after:-translate-x-1/2  after:h-0.5 after:bg-white after:-bottom-1">Vi
                             tilbyr personlig trening på KB Gym Sande</h1>
                     </div>
@@ -52,7 +52,7 @@ export default function Home() {
                     <p className="text-ligth-grey text-base mb-4 leading-normal">
                         Vi tilbyr også PT-duo der fleire kan trene saman, og dermed fordele kostnaden
                     </p>
-                    <h2 className="text-center text-lg font-semibold font-exo text-ligth-grey mb-4">ONLINE COACHING</h2>
+                    <h2 className="text-lg font-semibold font-exo text-ligth-grey mb-4">ONLINE COACHING</h2>
                     <p className="text-ligth-grey text-base mb-2 leading-normal">
                         I tillegg til fysiske PT-timer tilbyr vi oppfølging via nett. Dette er ein form for oppfølging som har hatt stigande popularitet den siste tida, og er dessutan rimligare enn fysiske PT-timer.
                     </p>
